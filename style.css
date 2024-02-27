@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62,5%;
+  --bg-background-button: rgb(240, 240, 233,0.9);
+  --color-timer: rgb(26, 26, 28);
+  --bg-modeclound: url(./assets/pexels-chuva3394939.jpg);
+  --bg-moderelax: url(./assets/pexels-irina-iriser-1408221.jpg);
+  --bg-modecity:url(./assets/pexels-1910225.jpg);
+  --bg-modefire: url(./assets/pexels-799459.jpg);
+  --bg-modenormal: url(./assets/pexels-pixabay-414660.jpg);
+
+}
+
+.running .ph-play,
+html:not(.running) .ph-pause {
+  display: none;
+}
+
+.sr-only{
+  width: 1px;
+  height: 1px;
+  position:absolute;
+  overflow: hidden;
+
+  margin: -1px;
+  padding: 0px;
+  border: 0;
+  appearance: none;
+}
+
+html.running{
+  background-image: url(./assets/pexels-mitchell-luo-3694711.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html:not(.running) {
+  background-image: url(./assets/pexels-mitchell-luo-3694711.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.modeclound{
+  background-image: var(--bg-modeclound);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.moderelax{
+  background-image: var(--bg-moderelax);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+html.modecity{
+  background-image: var(--bg-modecity);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html.modefire{
+    background-image: var(--bg-modefire);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  height: 100vh; 
+
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1.0rem;
+  color: var(--color-timer);
+  
+  
+}
+
+#timer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 7.5rem;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: var(--bg-background-button);
+  border-radius: 99rem;
+}
+
+#controls{
+height: 4.8rem;
+gap: 1.9rem;
+display: inline-flex;
+align-items: flex-start;
+padding: 1.0rem; 
+background-color: var(--bg-background-button);
+border-radius: 999rem;
+align-items: center;
+}
+
+button {
+  background-color: transparent;
+  font-size: 2.5rem;
+  border-radius: 999rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  
+  
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.0rem;
+  width: 13.8rem;
+  height: 15.2rem;
+  
+
+}
+
+.cards button {
+  border-radius: 1.0rem;
+  border: none;
+  background-color: var(--bg-background-button);
+
+}
+
+button:hover {
+  background-color: #cbcbd0;
+  
+}
