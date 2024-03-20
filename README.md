@@ -24,5 +24,6 @@ Event Listeners for clicks:
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karine-prates-7202a1219)
 
+![Captura de tela 2024-03-20 141429](https://github.com/Karineprates/FocusTimer-2.0/assets/148368284/88c4315b-2462-4c28-bb02-764e03ad3f52)
 
 
